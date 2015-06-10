@@ -7,7 +7,7 @@ SRCS := $(wildcard *.cc)
 OBJS := $(patsubst %.cc, %.o, $(SRCS))
 DEPS := $(patsubst %.o, %.d, $(OBJS))
 
-TARGET=String
+TARGET=proxy_url
 
 all : $(TARGET) 
 
